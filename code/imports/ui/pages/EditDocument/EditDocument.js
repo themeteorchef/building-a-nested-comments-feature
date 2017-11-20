@@ -24,7 +24,8 @@ EditDocument.propTypes = {
 
 export default withTracker(({ match }) => {
   const documentId = match.params._id;
-  const subscription = Meteor.subscribe('documents.view', documentId);
+  // Specific to this tutorial, we add true to signify this is "editing" mode.
+  const subscription = Meteor.subscribe('documents.view', documentId, true);
 
   return {
     loading: !subscription.ready(),

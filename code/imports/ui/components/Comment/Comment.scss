@@ -1,0 +1,53 @@
+@import '../../stylesheets/colors';
+
+.Comment {
+  list-style: none;
+
+  .deleted {
+    padding: 15px;
+    margin: 0;
+    color: $gray-light;
+    font-style: italic;
+  }
+}
+
+.Comment__author-date {
+  margin: 0 0 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid $gray-lighter;
+
+  .name {
+    margin-right: 7px;
+  }
+
+  .date {
+    color: $gray-light;
+    font-weight: normal;
+  }
+}
+
+.Comment__comment-frame {
+  border: 1px solid $gray-lighter;
+  border-radius: 3px;
+}
+
+.Comment__comment-body {
+  padding: 15px;
+
+  > div > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.Comment__comment-footer {
+  border-top: 1px solid $gray-lighter;
+  padding: 15px;
+
+  .comment-reply {
+    float: left;
+  }
+
+  .comment-delete {
+    float: right;
+  }
+}

@@ -1,0 +1,32 @@
+@import '../../stylesheets/colors';
+
+.CommentComposer {
+  border: 1px solid $gray-lighter;
+  padding: 15px;
+  border-radius: 3px;
+
+  .nav-tabs {
+    margin-bottom: 15px;
+  }
+
+  textarea {
+    margin-bottom: 15px;
+    min-height: 100px;
+  }
+
+  .btn {
+    float: right;
+  }
+
+  .CommentComposer__characters-remaining {
+    margin-right: 15px;
+    position: relative;
+    top: 8px;
+  }
+}
+
+.CommentComposer__preview {
+  > *:last-child {
+    margin-bottom: 0;
+  }
+}
