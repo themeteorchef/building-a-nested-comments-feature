@@ -1,6 +1,6 @@
 #### Tutorial: Building a Nested Comments Feature
 
-Description of this tutorial goes here. Used in your tutorial repo's README.md file.
+In this tutorial, we'll learn how to build a nested comments system. We'll see how to efficiently store data so that it appears nested in our user interface, but stays neat and tidy in our database.
 
 [Read this tutorial on The Meteor Chef](https://themeteorchef.com/tutorials/building-a-nested-comments-feature)  
 
